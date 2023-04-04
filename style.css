@@ -1,0 +1,44 @@
+header {
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 650px;
+    height: 450px;
+    margin-top: 75px;
+}
+
+section div h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+section div p {
+    font-size: 30px;
+    color: gray;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-top: 15px;
+}
