@@ -21,17 +21,19 @@
             <p>agregue la actividad, recuerde actualizar la lista cada que se requiera!</p>
         </div>
         <div class="container2">
-            <label for="Name"> Ingrese el nombre</label>
-            <input type="text" id="Name" name="Name" />
-            <label for="Tarea"> Ingrese la Tarea</label>
-            <input type="text" id="Tarea" name="Tarea" />
+            <label for="name"> Ingrese el nombre</label>
+            <input type="text" id="name" name="name" />
+            <label for="tarea"> Ingrese la Tarea</label>
+            <input type="text" id="tarea" name="tarea" />
         </div>
-        <button class="info">Agregar!</button>
+        <button class="info" onclick="getValueInput()">Agregar!</button>
     </section>
-    <footer></footer>
+    <footer>
+        <div id="valueInput"></div>
+    </footer>
 
 
-    <script href="./app.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
