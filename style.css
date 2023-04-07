@@ -42,3 +42,11 @@ section div p {
 .info {
     margin-top: 15px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   }
+
