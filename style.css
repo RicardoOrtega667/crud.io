@@ -43,10 +43,44 @@ section div p {
     margin-top: 15px;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-   }
+}
 
+
+
+@media all and (max-width: 144px) {
+    header {
+        width: 144px;
+        font-size: 10px;
+    }
+}
+
+@media all and(max-width: 800px) {
+    .top {
+        height: 80px;
+        background-color: black;
+        width: 800px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 18px;
+    }
+}
+
+@media all and(min-width: 800px) and (max-width: 1280px) {
+    .top {
+        height: 80px;
+        background-color: black;
+        width: 1280px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font: size 25px;
+    }
+}
